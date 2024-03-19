@@ -1,0 +1,53 @@
+
+* {
+    padding: 0px; 
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: system-ui;
+}
+
+.container {
+    padding: 40px;
+}
+
+.container-buttons {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 20px;
+    width: 110px;
+}
+
+.title {
+    padding: 20px;
+}
+
+/* .alternatives {
+    
+} */
+
+
+.paragraph {
+    background-color: #e5e7eb;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.paragraph:hover {
+     background-color: yellow;
+}
+
+.input-radio {
+
+    margin-right: 10px;
+
+}
