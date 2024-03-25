@@ -49,5 +49,36 @@ body {
 .input-radio {
 
     margin-right: 10px;
+    
+}
 
+.footer {
+
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.footer-conteudo {
+
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.list {
+    text-align: left;
+    list-style-type: none;
+}
+
+.list-social-media {
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
 }
