@@ -6,6 +6,26 @@
 
 }
 
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #64718b;
+    padding: 0px 100px 0px 100px; 
+    align-items: center
+}
+
+.logo{
+    color: #e5e7eb;
+
+}
+
+.button-navbar{
+    padding: 5px 20px;
+}
+
 body {
     font-family: system-ui;
 }
@@ -22,10 +42,9 @@ body {
 
 .button {
     border-radius: 5px;
-    padding: 20px;
-    width: 110px;
+    padding: 8px;
+    width: 75px;
 }
-
 .title {
     padding: 20px;
 }
@@ -53,21 +72,17 @@ body {
 }
 
 .footer {
-
     margin-top: 30px;
     text-align: center;
     margin-bottom: 50px;
-
 }
 
 .footer-conteudo {
-
     margin-bottom: 60px;
     margin-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-   
 }
 
 .list {
