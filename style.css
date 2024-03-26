@@ -25,6 +25,13 @@ body {
 
 .button-navbar{
     padding: 5px 20px;
+    background-color: #64718b;
+    color: white;
+    margin-right: 8px;
+    border: none;
+    outline: solid deepskyblue;
+    border-radius: 5px;
+    cursor: pointer
 }
 
 .main-section{
@@ -61,8 +68,12 @@ h2{
 
 .button {
     border-radius: 5px;
+    margin-right: 8px;
+    border: none;
+    outline: solid deepskyblue;
     padding: 8px;
     width: 75px;
+    cursor: pointer
 }
 .title {
     padding: 20px;
