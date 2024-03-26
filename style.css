@@ -6,7 +6,9 @@
 
 }
 
-
+body {
+    font-family: system-ui;
+}
 
 .header {
     display: flex;
@@ -17,21 +19,38 @@
     align-items: center
 }
 
-.logo{
+.logo {
     color: #e5e7eb;
-
 }
 
 .button-navbar{
     padding: 5px 20px;
 }
 
-body {
-    font-family: system-ui;
+.main-section{
+    height: 300px;
+    background-color:#eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: #64718b;
+    font-weight: 600;
+    font-style: italic
 }
 
 .container {
-    padding: 40px;
+    padding: 0px 400px ;
 }
 
 .container-buttons {
